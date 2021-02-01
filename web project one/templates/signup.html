@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGNUP</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body style="background: url('/static/img/2.jpg') center/cover no-repeat scroll;">
+        <!-- header-->
+        <header>
+            <nav>
+                <ul>
+                    <li><a class='aba' href="/">Home</a></li>
+                    <li><a class='aba' href="/about">About</a></li>
+                    <li><a class='aba' href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!-- header ends-->
+    
+        <!-- section-->
+        <section id='seccon'>
+            <form action="{{url_for('tq')}}">
+                <input name='name' id='i1' class='in1 aba' type="text" placeholder="Username:your_choice" class='i'>
+                <input type="email" name="email" class='in1 aba' placeholder="Email" id='i2' class='i'>
+                <input type="submit" value="Create" id='sub' class='in1'> 
+            </form>
+            <a href="/login"class='in1'id='aplus' >already have an account</a>
+        </section>
+        <!-- section ends-->
+        
+
+        <!-- footer -->
+        <footer>
+                <button class="btn" id="b2">
+                    <a href="/list">View-List</a>
+                </button>
+            </div>
+        </footer>
+        <!-- footer ends -->
+</body>
+</html>
+

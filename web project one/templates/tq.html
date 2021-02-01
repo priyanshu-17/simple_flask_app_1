@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAN-Q</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body style="background: url('/static/img/2.jpg') center/cover no-repeat scroll;">
+    <header id='abouthead'>
+        <nav>
+            <ul>
+                <li style="width:20rem;"><a  class='aba' href="/">return_to_home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div>
+            <p style="font-size: 17px; font-weight: bolder;
+            font-family: monospace;">
+                {% if name%}
+                thankyou {{name}}
+                {% else%}
+                we get it {{name_contact}}
+                {% endif%}
+            </p>
+        </div>
+    </section>
+
+    <footer>
+            <div class='f_div' id="f">
+                <button class="btn" id="b2">
+                    <a href="/list">View-List</a>
+                </button>
+            </div>
+    </footer>
+</body>
+
+</html>

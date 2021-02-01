@@ -1,0 +1,265 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    background: url('/static/img/2.jpg') center/cover no-repeat scroll;    
+}
+
+#body_list{
+    background: url(/img/georgie-cobbs-muOHbrFGEQY-unsplash.jpg) center/cover no-repeat scroll;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    /* border:2px solid black; */
+    align-items: center;
+    padding:0.2rem;
+    margin:auto;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    flex-wrap: wrap;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+li{
+    border:2px solid black;
+    border-radius: 1rem;
+    padding:0.5rem;
+    text-align: center;
+    margin:2px;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+    width:5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ul > li > a{
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+
+#l1{
+ color:red;
+ font-family: monospace;
+ font-weight: bolder;
+}
+
+#l2{
+color:rgb(0, 102, 255);
+font-family: monospace;
+font-weight: bolder;
+}
+
+#l3{
+color:orange;
+font-family: monospace;
+font-weight: bolder;
+}
+
+#l4{
+    color:rgb(0, 190, 0);
+    font-family: monospace;
+    font-weight: bolder;
+}
+
+
+section{
+    display:flex;
+    /* border:2px solid black; */
+    color:white;
+    height:24rem;
+    width:90%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+}
+
+section > div > h2{
+    font-size: 70px;
+}
+
+footer{
+    display:flex;
+    justify-content: center;    
+    align-items: center;
+    text-align: center;
+    left:6rem;
+    right:6rem;
+    padding:0.3;
+    /* border:2px solid black; */
+    width:auto;
+
+}
+
+
+.set{
+    margin-bottom: 4rem;
+}
+
+footer > div > button{
+    font-size: 1.5rem;
+    margin:0.5rem;
+    font-family: sans-serif;
+    border:2px solid rgb(0, 0, 0);
+    background-color: rgba(249, 252, 255, 0.363);
+    padding:0.4rem;
+    border-radius: 0.8rem;
+    height:3rem;
+    width:20rem;
+}
+
+footer > button{
+    font-size: 1.5rem;
+    margin:0.5rem;
+    font-family: sans-serif;
+    border:2px solid rgb(0, 0, 0);
+    background-color: rgba(249, 252, 255, 0.363);
+    padding:0.4rem;
+    border-radius: 0.8rem;
+    height:3rem;
+    width:20rem;
+}
+
+footer > div > button > a{
+    color:rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+footer > button > a{
+    color:rgb(255, 0, 0);
+    text-decoration: none;
+}
+
+#seccon{
+    display:flex;
+    flex-direction: column;
+    margin-top:4rem;
+    margin-bottom:5rem;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid black; */
+}
+
+section > form{
+    display:flex;
+    flex-direction: column; 
+}
+
+.in1{
+    border:2px solid white;
+    margin:0.5rem;
+    font-size: 2rem;
+    border-radius: 0.6rem;
+    text-align: center;
+}
+
+#linkd{
+    color:red;
+}
+
+#linkdi{
+    color:green;
+}
+
+#linkdin{
+    color:purple;
+}
+
+#aplus{
+    font-size: 1rem;
+    padding:0.4rem;
+    text-decoration: none;
+    color:yellow;
+}
+a{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li:hover{
+    background-color: rgba(128, 128, 128, 0.123);
+    width:7rem;
+    height:2rem;
+}
+
+button:hover{
+    background-color: rgba(128, 128, 128, 0.123);
+    width:23rem;
+    height:3rem;
+}
+
+#abouthead{
+    margin-bottom:4rem;
+}
+
+#aboutsec{
+  margin-bottom: 4rem;
+  width:20rem;
+}
+#secdiv{
+   text-align: center;
+   width:30em;
+}
+
+section > div h2{
+    color:rgb(0, 110, 255);
+    font-weight: bolder;
+    font-family: monospace;
+}
+
+section div > p{
+    color:rgb(186, 245, 130);
+    padding:1rem;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.aba{
+    color:rgb(152, 2, 252);
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+a{
+    font-weight: bolder;
+
+}
+
+#bli{
+    background-color: rgba(255, 0, 0, 0);
+    border:2px solid rgb(72, 153, 6);
+}
+
+#bli:hover{
+
+    background-color: rgba(95, 190, 7, 0.075);
+}
+
+#ali{
+    color:rgb(0, 140, 255);
+}
+
+section.seclis{
+    border:2px solid blue;
+}

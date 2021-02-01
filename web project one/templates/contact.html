@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body style="background: url('/static/img/2.jpg') center/cover no-repeat scroll;">
+    <!-- header-->
+    <header>
+        <nav>
+            <ul>
+                <li><a id='linkd' href="/">Home</a></li>
+                <li><a id='linkdi'href="/about">About</a></li>
+                <li><a id='linkdin'href="/signup">SignUp</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header ends-->
+    
+    <!-- section-->
+    <section id='seccon'>
+        <form action="{{url_for('tq')}}" >
+            <input type="text" class='in1' placeholder="name" name="name_contact">
+            
+            <input type="text" class='in1' placeholder="your message to us" name='message'>
+            <input type="submit" id='sub' class='in1' value="submit your query">
+        </form>
+    </section>
+    <!-- section ends-->
+
+    <!-- footer -->
+    <footer>
+        <div class='f_div' id="f">
+            <button class="btn" id="b1">
+                <a href="/login">Login</a>
+            </button>
+            <button class="btn" id="b2">
+                <a href="/list">View-List</a>
+            </button>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+</body>
+</html>
